@@ -1,0 +1,4 @@
+customtkinter
+sympy
+python-dotenv
+openai
