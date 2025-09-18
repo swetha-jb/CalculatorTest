@@ -1,5 +1,5 @@
 import sys, os, types
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'calculator')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Auto-mock tkinter for headless environments
 try:
@@ -27,7 +27,7 @@ except ImportError:
 
 import pytest
 import tkinter as tk
-from calc import Calculator
+from calculator import Calculator
 
 @pytest.fixture
 def calculator():
