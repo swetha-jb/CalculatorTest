@@ -291,4 +291,3 @@ def test_graphs_page_logic():
 def test_word_problem_page_logic():
     # Similar to solver_ai, we are testing the underlying logic.
     assert mock_generate("Solve this equation") == "AI Response for: Solve this equation"
-```
